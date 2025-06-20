@@ -1,0 +1,35 @@
+.site-footer {
+  background-color: #21262c;
+  color: white;
+  padding: 3rem 0;
+  margin-top: 3rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  padding: 1rem;
+}
+
+.footer-section h3 {
+  margin-bottom: 1rem;
+  color: #AA336A;
+}
+
+.social-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #87CEEB;
+}

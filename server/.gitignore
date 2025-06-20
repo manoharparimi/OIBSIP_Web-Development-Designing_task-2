@@ -1,0 +1,21 @@
+ .env
+node_modules
+*.log
+.DS_Stor
+# Ignore Node.js & frontend dependencies
+node_modules
+build
+dist
+
+# Ignore environment/config files
+.env
+.env.local
+.env.*.local
+
+# Logs and system files
+*.log
+.DS_Store
+my-client/node_modules
+server/node_modules
+my-client/.env
+server/.env
